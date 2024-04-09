@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei";
+}
+
+#HeaderNav {
+    display: flex;
+    justify-content: center;
+    background-color: #1183fb;
+}
+
+#HeaderNav .Content{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255,255,255,0.8)
+}
+
+#Contact{
+    display: flex;
+    justify-content: start;
+    padding: 1rem;
+}
+
+#Contact div+div{
+    margin-left: 20px;
+}
+
+#UserBar{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+#UserBar div+div{
+    margin-left: 20px;
+
+}
+
+#HeaderTitle{
+    display: flex;
+    justify-content: space-around;
+}
+
+#HeaderTitle .Content{
+    width: 1300px;
+    display: flex;
+    justify-content:  space-around;
+}
+
+#Logo{
+    min-width: 150px;
+}
+
+#NavBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#SearchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#SearchBar input{
+    border: none;
+    box-shadow: none;
+    background: #eaeef3;
+    border-radius: 100px;
+    padding: 5px 35px 5px 15px;
+    line-height: 28px;
+}
+
+#SearchBar input:focus{
+    outline: none;
+}
+
+#SearchBar .icon{
+    position: relative;
+    left: -30px;
+}
