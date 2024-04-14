@@ -1,0 +1,87 @@
+.carousel{
+    position: relative;
+}
+
+.carousel-item img{
+    width: 100%;
+}
+
+.carousel-item{
+    display: none;
+}
+
+.carousel-item.active{
+    display: block;
+}
+
+.carousel-caption{
+    position: absolute;
+    max-width: 780px;
+    top: 110px;
+    left: 50%;
+    margin-left: -575px;
+    text-shadow: none;
+    color: #fff;
+}
+
+.carousel-caption li{
+    line-height: 2;
+}
+
+.carousel-indicators{
+    position: absolute;
+    bottom: 15px;
+    left: 45%;
+    z-index: 15;
+}
+
+.carousel-indicators .carousel-indicator {
+    margin: 0 5px;
+    width: 20px;
+    height: 4px;
+    border: none;
+    background: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+
+.carousel-indicator.active{
+    background: #fff;
+}
+
+.carousel-buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carousel-buttons .btn{
+    font-size: 15px;
+    color: #fff;
+    margin: 0 6px 0 0;
+    min-width: 100px;
+    padding: 10px 20px;
+    border-radius: 100px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-danger{
+    background-color: #ea644a;
+}
+
+.btn-info{
+    background-color: #0bd6c0;
+}
+
+.btn-warning{
+    background-color: #f7b84b;
+}
+
+.carousel-buttons a:last-child{
+    background-color: #9a7af4;
+}
+
+.btn-primary{
+    background-color: #046fdf;
+}

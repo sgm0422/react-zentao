@@ -33,6 +33,7 @@ nav li:hover {
 .dropdown li {
     display: block;
     padding: 10px 20px;
+    background-color: #fff;
 }
    
 .dropdown li:hover {
